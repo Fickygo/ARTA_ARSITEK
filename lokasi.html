@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="lokasi.css">
+    <title>ARTA | Solusi Arsitektur dan Konstruksi Terpercaya</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="./IMG/logo.png" alt=""></div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" style="--i:1;">HOME</a></li>
+                <li><a href="blog.html" style="--i:2;">BLOG</a></li>
+                <li><a href="" style="--i:3;" class="active">LOKASI</a></li>
+                <li><a href="pesanan.html" style="--i:4;">PESANAN</a></li>
+                <div class="login">
+                    <a href="" class="btn">Hubungi Kami</a>
+                </div>
+            </ul>
+
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="office-grid">
+            <!-- Kantor Pusat Jakarta -->
+            <div class="office-card">
+                <img src="./IMG/gedung1.jpg" alt="Kantor Jakarta" class="office-image">
+                <div class="office-content">
+                    <span class="office-type">Kantor Pusat</span>
+                    <h2>Jepara</h2>
+                    <div class="office-info">
+                        <p>Gedung ARTA Tower, Lantai 2</p>
+                        <p>Jl. Mayong Raya</p>
+                        <p>Mayong, Jepara</p>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span>📞 (021) 456-789</span>
+                        </div>
+                        <div class="contact-item">
+                            <span>📧 artacom@gmail.com</span>
+                        </div>
+                    </div>
+                    <a href="" class="cta-button">Lihat di Peta</a>
+                </div>
+            </div>
+
+            <!-- Kantor Cabang Surabaya -->
+            <div class="office-card">
+                <img src="./IMG/gedung2.jpg" alt="Kantor Surabaya" class="office-image">
+                <div class="office-content">
+                    <span class="office-type">Kantor Cabang</span>
+                    <h2>Surabaya</h2>
+                    <div class="office-info">
+                        <p>Gedung Metropolis, Lantai 12</p>
+                        <p>Jl. Pemuda No. 45</p>
+                        <p>Surabaya, 60271</p>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span>📞 (031) 444-5678</span>
+                        </div>
+                        <div class="contact-item">
+                            <span>📧 surabaya@arta.co.id</span>
+                        </div>
+                    </div>
+                    <a href="" class="cta-button">Lihat di Peta</a>
+                </div>
+            </div>
+
+            <!-- Kantor Cabang Bandung -->
+            <div class="office-card">
+                <img src="./IMG/gedung3.jpg" alt="Kantor Bandung" class="office-image">
+                <div class="office-content">
+                    <span class="office-type">Kantor Cabang</span>
+                    <h2>Bandung</h2>
+                    <div class="office-info">
+                        <p>Paskal Hyper Square Unit A-12</p>
+                        <p>Jl. Pasir Kaliki No. 25-27</p>
+                        <p>Bandung, 40181</p>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span>📞 (022) 333-9012</span>
+                        </div>
+                        <div class="contact-item">
+                            <span>📧 bandung@arta.co.id</span>
+                        </div>
+                    </div>
+                    <a href="" class="cta-button">Lihat di Peta</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Jam Operasional</h2>
+            <div class="working-hours">
+                <div class="hours-card">
+                    <h3>Senin - Jumat</h3>
+                    <p>08:00 - 17:00 WIB</p>
+                </div>
+                <div class="hours-card">
+                    <h3>Sabtu</h3>
+                    <p>09:00 - 14:00 WIB</p>
+                </div>
+                <div class="hours-card">
+                    <h3>Minggu & Hari Libur</h3>
+                    <p>Tutup</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="satu">
+        <p>Anda membutuhkan bantuan?</p>
+        <a href="" class="contact-btn">Hubungi Kami</a>
+    </div>
+
+    <div class="dua">
+        <div class="dua-main">
+            <div class="btn-main">
+                <img src="./IMG/logo.png" alt="">
+                <p>Kami berkomitmen menciptakan hasil desain yang menarik dan memberikan anggaran biaya konstruksi yang
+                    terbaik</p>
+            </div>
+
+            <div class="btn-main">
+                <h3>Quick <span>Links</span></h3>
+                <a href="index.html">HOME</a>
+                <a href="blog.html">BLOG</a>
+                <a href="" class="active">LOKASI</a>
+                <a href="pesanan.html">PESANAN</a>
+            </div>
+
+            <div class="btn-main">
+                <h3>Follow <span>Us</span></h3>
+                <a href="">Instagram</a>
+                <a href="">Twitter</a>
+                <a href="">Facebook</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+
+</body>
+
+</html>
